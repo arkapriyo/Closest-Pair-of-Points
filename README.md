@@ -174,9 +174,6 @@ To contribute:
 3. Commit your changes  
 4. Submit a pull request  
 
-Please ensure:
-- Code follows **PEP8** style guidelines  
-- Include docstrings and comments for clarity  
 
 ---
 
