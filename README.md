@@ -1,6 +1,5 @@
 # Closest-Pair of Points
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3%2B-brightgreen.svg)](https://www.python.org/downloads/)
 
 A Python implementation of the **Closest Pair of Points** problem in computational geometry — finding the two points that are the minimum distance apart from a given set of points in the plane.  
@@ -19,7 +18,6 @@ This repository includes both a **brute-force** approach and an **optimized divi
   - [Installation](#installation)
 - [Usage](#usage)
 - [Performance / Complexity](#performance--complexity)
-- [Testing & Examples](#testing--examples)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -76,9 +74,9 @@ The following Python libraries are used:
 
 ---
 
-##  Getting Started
+## Getting Started
 
-### 🔧 Prerequisites
+### Prerequisites
 - Python 3.14  
 - `pip` (Python package installer)
 
@@ -117,28 +115,6 @@ Both methods return the same result but differ in runtime efficiency.
 
 ---
 
-## Testing & Examples
-
-You can easily modify the points for testing:
-
-```python
-points = [(0, 0), (1, 1), (2, 2), (3, 3)]
-```
-
-Expected output:
-```
-Closest pair: ((0, 0), (1, 1))
-Distance: 1.4142
-```
-
-You can also generate random points using:
-```python
-import random
-points = [(random.uniform(0, 100), random.uniform(0, 100)) for _ in range(100)]
-```
-
----
-
 ## Authors
-- [Arkapriyo Hore](https://github.com/arkapriyo) (BMAT2313)
-- Bodhideep Joardar (BMAT2315)
+- [Arkapriyo Hore](https://github.com/arkapriyo) (bmat2313)
+- Bodhideep Joardar (bmat2315)
