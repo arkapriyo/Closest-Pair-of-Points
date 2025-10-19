@@ -8,7 +8,7 @@ This repository includes both a **brute-force** approach and an **optimized divi
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [About](#about)
 - [Features](#features)
@@ -26,7 +26,7 @@ This repository includes both a **brute-force** approach and an **optimized divi
 
 ---
 
-## 🧩 About
+## About
 
 The *Closest Pair of Points* problem asks:  
 > Given \(n\) points in a 2D plane, find the pair with the smallest Euclidean distance.
@@ -43,7 +43,7 @@ This repository includes:
 
 ---
 
-## ✨ Features
+## Features
 
 - Clean, easy-to-read Python code  
 - Comparison between brute-force and optimized methods  
@@ -52,7 +52,7 @@ This repository includes:
 
 ---
 
-## 🧱 External Libraries
+## External Libraries
 
 The following Python libraries are used:
 
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Algorithms Implemented
+## Algorithms Implemented
 
 ### 1️⃣ Brute Force (`clustered_points.py`)
 - Checks all \(\binom{n}{2}\) point pairs.  
@@ -85,13 +85,13 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 🔧 Prerequisites
 - Python 3.7 or above  
 - `pip` (Python package installer)
 
-### 💻 Installation
+### Installation
 
 Clone the repository:
 ```bash
@@ -106,15 +106,15 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run either implementation directly:
 
 ```bash
-# Brute-force version
+# Clustered Distribution
 python clustered_points.py
 
-# Divide and conquer version
+# Optimal Implementation
 python optimal_closest_pair.py
 ```
 
@@ -130,7 +130,7 @@ print(f"Closest points: {pair} with distance = {distance:.4f}")
 
 ---
 
-## ⏱️ Performance / Complexity
+## Performance / Complexity
 
 | Algorithm | Time Complexity | Space Complexity | Suitable For |
 |------------|----------------|------------------|---------------|
@@ -141,7 +141,7 @@ Both methods return the same result but differ in runtime efficiency.
 
 ---
 
-## 🧪 Testing & Examples
+## Testing & Examples
 
 You can easily modify the points for testing:
 
@@ -163,7 +163,7 @@ points = [(random.uniform(0, 100), random.uniform(0, 100)) for _ in range(100)]
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! 🎉  
 Suggestions and pull requests that improve readability, efficiency, or add features are highly appreciated.
@@ -180,7 +180,7 @@ Please ensure:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.
 
@@ -188,6 +188,6 @@ This project is licensed under the **Apache License 2.0** — see the [LICENSE](
 
 ---
 
-## 🙌 Authors
+## Authors
 - [Arkapriyo Hore](https://github.com/arkapriyo) (BMAT2313)
 - Bodhideep Joardar (BMAT2315)
