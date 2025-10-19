@@ -20,8 +20,6 @@ This repository includes both a **brute-force** approach and an **optimized divi
 - [Usage](#usage)
 - [Performance / Complexity](#performance--complexity)
 - [Testing & Examples](#testing--examples)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -29,17 +27,15 @@ This repository includes both a **brute-force** approach and an **optimized divi
 ## About
 
 The *Closest Pair of Points* problem asks:  
-> Given \(n\) points in a 2D plane, find the pair with the smallest Euclidean distance.
+> Given n points in a 2D plane, find the pair with the smallest Euclidean distance.
 
-It’s a fundamental **computational geometry** problem with real-world applications in:
-- Computer graphics  
-- Clustering and machine learning  
+It’s a fundamental **computational geometry** problem with real-world applications in:  
 - Spatial data analysis  
 - Geographic Information Systems (GIS)
 
 This repository includes:
-- A **Brute Force** approach (\(O(n^2)\))
-- A **Divide & Conquer** approach (\(O(n \log n)\))
+- A **Brute Force** approach **O(n²)**
+- A **Divide & Conquer** approach **O(n log n)**
 
 ---
 
@@ -48,7 +44,6 @@ This repository includes:
 - Clean, easy-to-read Python code  
 - Comparison between brute-force and optimized methods  
 - Uses standard and widely supported Python libraries  
-- Educational structure — great for learning divide and conquer  
 
 ---
 
@@ -64,10 +59,6 @@ The following Python libraries are used:
 | `random` | Random point generation for testing |
 | `pandas` | Data handling, result tabulation, and optional export |
 
-Install them with:
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -88,7 +79,7 @@ pip install -r requirements.txt
 ##  Getting Started
 
 ### 🔧 Prerequisites
-- Python 3.7 or above  
+- Python 3.14  
 - `pip` (Python package installer)
 
 ### Installation
@@ -97,11 +88,6 @@ Clone the repository:
 ```bash
 git clone https://github.com/arkapriyo/Closest-Pair-of-Points.git
 cd Closest-Pair-of-Points
-```
-
-Install required packages:
-```bash
-pip install -r requirements.txt
 ```
 
 ---
@@ -116,16 +102,6 @@ python clustered_points.py
 
 # Optimal Implementation
 python optimal_closest_pair.py
-```
-
-Or use the functions in your own code:
-
-```python
-from optimal_closest_pair import closest_pair
-
-points = [(1.0, 2.0), (3.5, 4.2), (-0.5, 0.1)]
-(pair, distance) = closest_pair(points)
-print(f"Closest points: {pair} with distance = {distance:.4f}")
 ```
 
 ---
@@ -160,28 +136,6 @@ You can also generate random points using:
 import random
 points = [(random.uniform(0, 100), random.uniform(0, 100)) for _ in range(100)]
 ```
-
----
-
-## Contributing
-
-Contributions are welcome! 🎉  
-Suggestions and pull requests that improve readability, efficiency, or add features are highly appreciated.
-
-To contribute:
-1. Fork the repo  
-2. Create a new branch (`feature-branch`)  
-3. Commit your changes  
-4. Submit a pull request  
-
-
----
-
-## License
-
-This project is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ---
 
