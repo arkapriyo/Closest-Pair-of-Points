@@ -73,12 +73,12 @@ pip install -r requirements.txt
 
 ## Algorithms Implemented
 
-### 1️⃣ Brute Force (`clustered_points.py`)
+### 1 Clustered Points (`clustered_points.py`)
 - Checks all \(\binom{n}{2}\) point pairs.  
 - Time complexity: **O(n²)**.  
 - Best suited for small datasets.
 
-### 2️⃣ Divide-and-Conquer (`optimal_closest_pair.py`)
+### 2 Optimal Closest Pair (`optimal_closest_pair.py`)
 - Splits points by x-coordinate, recursively finds closest pairs, and merges results efficiently.  
 - Time complexity: **O(n log n)**.  
 - Ideal for large datasets.
